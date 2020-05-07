@@ -12,7 +12,7 @@
   
   **Approval** - A jenkins job which tester runs manually to approve a webapp. And the  build automatically merges the two branches 
                  if the webapp is manually approved by the tester.
-                 ![Image of Yaktocat](https://github.com/Sahilkumar098/Mywebserver/blob/master/Screenshots/jenkins%20job%20list.png)
+                 ![Image of Job List](https://github.com/Sahilkumar098/Mywebserver/blob/master/Screenshots/jenkins%20job%20list.png)
 ## How I did it.
  **Job1 and Job2**
   - downloaded the git pulgin from the pulgin manager in jenkins.
@@ -22,6 +22,7 @@
   - Did the setup of my trigger for github Hooks.
   - And copied my repo to a folder in base system which is linked to my production server and testing server respectively.
   - and Setup my downstream jobs (That deployed my production and testing server respectively)
+  ![Image of Job List](https://github.com/Sahilkumar098/Mywebserver/blob/master/Screenshots/Job1%20git.png)
  
  **Production and testing server**
    - Under the build category, execute the docker containers:
