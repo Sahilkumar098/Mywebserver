@@ -46,6 +46,7 @@
    - the main focus was how to merge two branches if tesing was sucessfull.
    - for that under the "after build" category, click on add and specify git merge and provide the branch to be merged there.
    - once the build is complete the Job will automatically merge the two branches and upload the merged master branch to you git repo.
+   ![Image of Approval Job](https://github.com/Sahilkumar098/Mywebserver/blob/master/Screenshots/Jenkins%20Approval.png)
    
 ### Conclusion
  
