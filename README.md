@@ -12,6 +12,7 @@
   
   **Approval** - A jenkins job which tester runs manually to approve a webapp. And the  build automatically merges the two branches 
                  if the webapp is manually approved by the tester.
+                 ![Image of Yaktocat](https://github.com/Sahilkumar098/Mywebserver/blob/master/Screenshots/jenkins%20job%20list.png)
 ## How I did it.
  **Job1 and Job2**
   - downloaded the git pulgin from the pulgin manager in jenkins.
